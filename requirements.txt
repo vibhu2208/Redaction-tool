@@ -1,5 +1,7 @@
 # Streamlit version
-streamlit==1.25.0
+streamlit>=1.28.0  # A newer version that supports Pillow 10
+pillow==10.0.0
+# ... rest of your requirements
 
 # Document and text handling libraries
 docx==0.2.4
